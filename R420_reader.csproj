@@ -56,17 +56,14 @@
     <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Impinj.OctaneSdk, Version=2.2.0.240, Culture=neutral, PublicKeyToken=05c02f4d2efc38d8, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\lib\Impinj.OctaneSdk.dll</HintPath>
+    <Reference Include="Impinj.OctaneSdk">
+      <HintPath>ddl\Impinj.OctaneSdk.dll</HintPath>
     </Reference>
-    <Reference Include="LLRP, Version=10.18.1.240, Culture=neutral, PublicKeyToken=450cec67a1cde3d4, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\lib\LLRP.dll</HintPath>
+    <Reference Include="LLRP">
+      <HintPath>ddl\LLRP.dll</HintPath>
     </Reference>
-    <Reference Include="LLRP.Impinj, Version=10.18.1.240, Culture=neutral, PublicKeyToken=450cec67a1cde3d4, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\lib\LLRP.Impinj.dll</HintPath>
+    <Reference Include="LLRP.Impinj">
+      <HintPath>ddl\LLRP.Impinj.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
