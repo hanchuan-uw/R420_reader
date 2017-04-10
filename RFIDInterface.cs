@@ -314,6 +314,7 @@ namespace RFIDReader
                      {
                          if (running)
                          {
+                             Thread.Sleep(Convert.ToInt16(textBox4.Text));
                              if (results.Count > 0)
                              {
                                  RFIDResult result = results[0];
@@ -321,7 +322,6 @@ namespace RFIDReader
                                  {
                                      results.Remove(result);
                                      sendToClients(";" + result.makeMeAString() + "\n");
-                                     Thread.Sleep(Convert.ToInt16(textBox4.Text));
 
                                  }
                              }

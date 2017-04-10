@@ -123,8 +123,8 @@ namespace RFIDReader
             res += ',';
             //res += TagSeenCount.ToString();
             //res += ',';
-            res += Tid.ToString();
-            res += ',';
+            //res += Tid.ToString();
+            //res += ',';
             res += RfDopplerFrequency.ToString("F");
             res += ',';
             res += PhaseAngleInRadians.ToString("F");
